@@ -11,7 +11,7 @@ class HomeAppBar extends StatelessWidget {
           Icon(
             Icons.sort,
             size: 30,
-            color: Color(0xFF4C53A5),
+            color: Color.fromARGB(255, 40, 78, 13),
           ),
           Padding(
             padding: EdgeInsets.only(
@@ -22,7 +22,7 @@ class HomeAppBar extends StatelessWidget {
               style: TextStyle(
                 fontSize: 23,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF4C53A5),
+                color: Color.fromARGB(255, 40, 78, 13),
               ),
             ),
           ),
@@ -43,7 +43,7 @@ class HomeAppBar extends StatelessWidget {
               child: Icon(
                 Icons.shopping_bag_outlined,
                 size: 32,
-                color: Color(0xFF4C53A5),
+                color: Color.fromARGB(255, 40, 78, 13),
               ),
             ),
           )

@@ -20,7 +20,7 @@ class CartItemSamples extends StatelessWidget {
                 Radio(
                     value: "",
                     groupValue: "",
-                    activeColor: Color(0xFF4c53A5),
+                    activeColor: Color.fromARGB(255, 40, 78, 13),
                     onChanged: (index) {}),
                 Container(
                   height: 70,
@@ -39,7 +39,7 @@ class CartItemSamples extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: Color(0xFF4C53A5),
+                          color: Color.fromARGB(255, 40, 78, 13),
                         ),
                       ),
                       Text(
@@ -47,7 +47,7 @@ class CartItemSamples extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
-                          color: Color(0xFF4C53A5),
+                          color: Color.fromARGB(255, 40, 78, 13),
                         ),
                       )
                     ],
@@ -90,7 +90,7 @@ class CartItemSamples extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
-                                color: Color(0xFF4C53A5),
+                                color: Color.fromARGB(255, 40, 78, 13),
                               ),
                             ),
                           ),

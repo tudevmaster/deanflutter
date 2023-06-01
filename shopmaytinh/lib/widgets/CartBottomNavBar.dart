@@ -16,7 +16,7 @@ class CartBottomNavBar extends StatelessWidget {
                 Text(
                   "Tổng cộng:",
                   style: TextStyle(
-                      color: Color(0xFF4C53A5),
+                      color: Color.fromARGB(255, 40, 78, 13),
                       fontSize: 22,
                       fontWeight: FontWeight.bold),
                 ),
@@ -25,7 +25,7 @@ class CartBottomNavBar extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFF4C53A5),
+                    color: Color.fromARGB(255, 40, 78, 13),
                   ),
                 )
               ],
@@ -35,7 +35,7 @@ class CartBottomNavBar extends StatelessWidget {
               height: 50,
               width: double.infinity,
               decoration: BoxDecoration(
-                color: Color(0xFF4C53A5),
+                color: Color.fromARGB(255, 40, 78, 13),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(

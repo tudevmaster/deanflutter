@@ -27,7 +27,7 @@ class ItemsWidget extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(5),
                     decoration: BoxDecoration(
-                      color: Color(0xFF4C53A5),
+                      color: Color.fromARGB(255, 5, 108, 48),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
@@ -64,7 +64,7 @@ class ItemsWidget extends StatelessWidget {
                   "Laptop01200122",
                   style: TextStyle(
                       fontSize: 18,
-                      color: Color(0xFF4C53A5),
+                      color: Color.fromARGB(255, 40, 78, 13),
                       fontWeight: FontWeight.bold),
                 ),
               ),
@@ -74,7 +74,7 @@ class ItemsWidget extends StatelessWidget {
                   "Mo ta san pham",
                   style: TextStyle(
                     fontSize: 15,
-                    color: Color(0xFF4C53A5),
+                    color: Color.fromARGB(255, 40, 78, 13),
                   ),
                 ),
               ),
@@ -88,12 +88,12 @@ class ItemsWidget extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xFF4C53A5),
+                        color: Color.fromARGB(255, 40, 78, 13),
                       ),
                     ),
                     Icon(
                       Icons.shopping_cart_checkout,
-                      color: Color(0xFF4C53A5),
+                      color: Color.fromARGB(255, 40, 78, 13),
                     )
                   ],
                 ),
