@@ -12,7 +12,7 @@ class RegisterationController extends GetxController {
   TextEditingController passwordContronller = TextEditingController();
 
   final Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
-  Future<void> loginWithEmail() async {
+  Future<void> registerWithEmail() async {
     try {
       var headers = {'Content: Type': 'application/json'};
       var url = Uri.parse(
@@ -42,7 +42,7 @@ class RegisterationController extends GetxController {
       } else {
         throw jsonDecode(response.body)["message"] ?? "Unknown Error Occured";
       }
-    } catch (e) {
+    } catch (error) {
       Get.back();
       showDialog(
           context: Get.context!,
@@ -50,7 +50,7 @@ class RegisterationController extends GetxController {
             return SimpleDialog(
               title: Text('Error'),
               contentPadding: EdgeInsets.all(20),
-              children: [Text(e.toString())],
+              children: [Text(error.toString())],
             );
           });
     }

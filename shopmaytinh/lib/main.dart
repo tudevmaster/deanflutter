@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => HomePage(),
         "cartPage": (context) => CartPage(),
         "itemPage": (context) => ItemPage(),
-        "loGin": (context) => DangNhap(),
+        // "loGin": (context) => DangNhap(),
       },
     );
   }
