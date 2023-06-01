@@ -15,7 +15,7 @@ class CartAppBar extends StatelessWidget {
             child: Icon(
               Icons.arrow_back,
               size: 30,
-              color: Color(0xFF4C53A5),
+              color: Color.fromARGB(255, 118, 157, 59),
             ),
           ),
           Padding(
@@ -25,14 +25,14 @@ class CartAppBar extends StatelessWidget {
               style: TextStyle(
                   fontSize: 23,
                   fontWeight: FontWeight.bold,
-                  color: Color(0xFF4C53A5)),
+                  color: Color.fromARGB(255, 118, 157, 59)),
             ),
           ),
           Spacer(),
           Icon(
             Icons.more_vert,
             size: 30,
-            color: Color(0xFF4C53A5),
+            color: Color.fromARGB(255, 118, 157, 59),
           )
         ],
       ),

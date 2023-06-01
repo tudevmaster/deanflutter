@@ -25,7 +25,7 @@ class ItemBottomNavBar extends StatelessWidget {
             Text(
               "20.000.000vnđ",
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 40, 78, 13),
               ),

@@ -33,7 +33,7 @@ class CartPage extends StatelessWidget {
                   children: [
                     Container(
                       decoration: BoxDecoration(
-                        color: Color(0xFF4C53A5),
+                        color: Color.fromRGBO(222, 204, 44, 1),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Icon(
@@ -46,7 +46,7 @@ class CartPage extends StatelessWidget {
                       child: Text(
                         "Thêm mã giảm giá",
                         style: TextStyle(
-                          color: Color(0xFF4C53A5),
+                          color: Color.fromRGBO(222, 204, 44, 1),
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
                         ),

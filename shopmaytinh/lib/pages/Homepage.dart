@@ -53,7 +53,7 @@ class HomePage extends StatelessWidget {
                       Icon(
                         Icons.camera_alt,
                         size: 27,
-                        color: Color(0xFF4C53A5),
+                        color: Color.fromARGB(255, 118, 157, 59),
                       ),
                     ],
                   ),
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xFF4C53A5)),
+                        color: Color.fromARGB(255, 118, 157, 59)),
                   ),
                 ),
 
@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xFF4C53A5),
+                      color: Color.fromARGB(255, 118, 157, 59),
                     ),
                   ),
                 ),
@@ -102,7 +102,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.transparent,
         onTap: (index) {},
         height: 70,
-        color: Color(0xFF4C53A5),
+        color: Color.fromARGB(255, 118, 157, 59),
         items: [
           Icon(
             Icons.home,

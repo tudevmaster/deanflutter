@@ -47,7 +47,7 @@ class ItemPage extends StatelessWidget {
                             "Laptop AAAAA",
                             style: TextStyle(
                               fontSize: 28,
-                              color: Color(0xFF4C53A5),
+                              color: Color.fromARGB(255, 165, 139, 62),
                               fontWeight: FontWeight.bold,
                             ),
                           )
@@ -68,7 +68,7 @@ class ItemPage extends StatelessWidget {
                             itemPadding: EdgeInsets.symmetric(horizontal: 4),
                             itemBuilder: (context, _) => Icon(
                               Icons.favorite,
-                              color: Color(0xFF4C53A5),
+                              color: Color.fromARGB(255, 46, 114, 51),
                             ),
                             onRatingUpdate: (index) {},
                           ),
@@ -90,7 +90,7 @@ class ItemPage extends StatelessWidget {
                                 child: Icon(
                                   CupertinoIcons.minus,
                                   size: 18,
-                                  color: Color(0xFF4C53A5),
+                                  color: Color.fromARGB(255, 139, 138, 62),
                                 ),
                               ),
                               Container(
@@ -100,7 +100,7 @@ class ItemPage extends StatelessWidget {
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                    color: Color(0xFF4C53A5),
+                                    color: Color.fromARGB(255, 139, 138, 62),
                                   ),
                                 ),
                               ),
@@ -120,7 +120,7 @@ class ItemPage extends StatelessWidget {
                                 child: Icon(
                                   CupertinoIcons.plus,
                                   size: 18,
-                                  color: Color(0xFF4C53A5),
+                                  color: Color.fromARGB(255, 139, 138, 62),
                                 ),
                               ),
                             ],
@@ -135,7 +135,7 @@ class ItemPage extends StatelessWidget {
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           fontSize: 17,
-                          color: Color(0xFF4c53A5),
+                          color: Color.fromARGB(255, 203, 123, 2),
                         ),
                       ),
                     ),
@@ -147,7 +147,7 @@ class ItemPage extends StatelessWidget {
                             "Size:",
                             style: TextStyle(
                               fontSize: 18,
-                              color: Color(0xFF4c53A5),
+                              color: Color.fromARGB(255, 139, 138, 62),
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -177,7 +177,7 @@ class ItemPage extends StatelessWidget {
                                     style: TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold,
-                                      color: Color(0xFF4C53A5),
+                                      color: Color.fromARGB(255, 139, 138, 62),
                                     ),
                                   ),
                                 )
@@ -194,7 +194,7 @@ class ItemPage extends StatelessWidget {
                             "Màu sắc:",
                             style: TextStyle(
                               fontSize: 18,
-                              color: Color(0xFF4c53A5),
+                              color: Color.fromARGB(255, 139, 138, 62),
                               fontWeight: FontWeight.bold,
                             ),
                           ),
