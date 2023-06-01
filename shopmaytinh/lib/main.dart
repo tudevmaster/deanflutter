@@ -3,6 +3,7 @@ import 'package:shopmaytinh/pages/CartPage.dart';
 import 'package:shopmaytinh/pages/Homepage.dart';
 import 'package:shopmaytinh/pages/Login.dart';
 import 'package:shopmaytinh/pages/itemPage.dart';
+import 'package:shopmaytinh/pages/home_screen.dart';
 
 void main() => runApp(MyApp());
 
