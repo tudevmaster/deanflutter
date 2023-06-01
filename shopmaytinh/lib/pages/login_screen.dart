@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:shopmaytinh/pages/Homepage.dart';
+import 'package:shopmaytinh/pages/sigup_screen.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
+class LoginScreen extends StatelessWidget {
   double getSmallDiamter(BuildContext context) =>
       MediaQuery.of(context).size.width * 2 / 3;
   double getBigDiamter(BuildContext context) =>
@@ -97,6 +97,31 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                Container(
+                  margin: EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: TextField(
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      icon: Icon(
+                        Icons.vpn_key,
+                        color: Color(0xFFFF4891),
+                      ),
+                      focusedBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(color: Colors.grey.shade100),
+                      ),
+                      labelText: "Password",
+                      enabledBorder: InputBorder.none,
+                      labelStyle: TextStyle(
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ),
+                ),
                 Align(
                   alignment: Alignment.bottomRight,
                   child: Container(
@@ -130,14 +155,23 @@ class HomeScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                       splashColor: Colors.amber,
                       child: Center(
+                          child: TextButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HomePage(),
+                              ));
+                        },
                         child: Text(
-                          "Đăng Nhập",
+                          "Đăng Nhập ?",
                           style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w700,
+                            // fontSize: 1,
+                            color: Color(0xFFFF4891),
+                            fontWeight: FontWeight.w500,
                           ),
                         ),
-                      ),
+                      )),
                     ),
                   ),
                 ),
@@ -152,14 +186,23 @@ class HomeScreen extends StatelessWidget {
                         fontWeight: FontWeight.w500,
                       ),
                     ),
-                    Text(
-                      "Chưa có tài khoản ?",
-                      style: TextStyle(
-                        fontSize: 11,
-                        color: Color(0xFFFF4891),
-                        fontWeight: FontWeight.w500,
+                    TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => SignUpScreen(),
+                            ));
+                      },
+                      child: Text(
+                        "Chưa có tài khoản ?",
+                        style: TextStyle(
+                          // fontSize: 1,
+                          color: Color(0xFFFF4891),
+                          fontWeight: FontWeight.w500,
+                        ),
                       ),
-                    ),
+                    )
                   ],
                 )
               ],
