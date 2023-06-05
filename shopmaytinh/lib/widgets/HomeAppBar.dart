@@ -8,6 +8,16 @@ class HomeAppBar extends StatelessWidget {
       padding: EdgeInsets.all(25),
       child: Row(
         children: [
+          InkWell(
+            onTap: () {
+              Navigator.pop(context);
+            },
+            child: Icon(
+              Icons.arrow_back,
+              size: 30,
+              color: Color.fromARGB(255, 118, 157, 59),
+            ),
+          ),
           Icon(
             Icons.sort,
             size: 30,

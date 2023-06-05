@@ -83,7 +83,7 @@ class LoginScreen extends StatelessWidget {
                     obscureText: true,
                     decoration: InputDecoration(
                       icon: Icon(
-                        Icons.vpn_key,
+                        Icons.person_2_outlined,
                         color: Color(0xFFFF4891),
                       ),
                       focusedBorder: UnderlineInputBorder(
@@ -164,7 +164,7 @@ class LoginScreen extends StatelessWidget {
                               ));
                         },
                         child: Text(
-                          "Đăng Nhập ?",
+                          "Đăng Nhập",
                           style: TextStyle(
                             // fontSize: 1,
                             color: Color(0xFFFF4891),
@@ -179,7 +179,7 @@ class LoginScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Chưa có tài khoản ?",
+                      "Quên tài khoản ?",
                       style: TextStyle(
                         fontSize: 11,
                         color: Colors.grey,
