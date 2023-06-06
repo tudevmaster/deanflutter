@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import '../pages/Homepage.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -57,9 +58,9 @@ class _LoginScreenState extends State<LoginScreen> {
       User? user = userCredential.user;
       if (user != null) {
         // Thêm tài khoản người dùng vào Firestore
-        await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
-          'email': user.email,
-        });
+        //  await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
+        //    'email': user.email,
+        //  });
 
         // Xử lý thành công đăng ký người dùng
         showDialog(
