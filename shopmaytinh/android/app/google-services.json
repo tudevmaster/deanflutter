@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628708906552",
+    "project_id": "flutter-login-b1f2d",
+    "storage_bucket": "flutter-login-b1f2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628708906552:android:76f3eae247e51ab679b8cd",
+        "android_client_info": {
+          "package_name": "com.example.shopmaytinh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628708906552-2h7a7uv0oddkf2ov6g18p24le900jg9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeKjD1Buj9vnWUAxeiNnN5a-M-YCNmfow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628708906552-2h7a7uv0oddkf2ov6g18p24le900jg9p.apps.googleusercontent.com",
+              "client_type": 3
+            }/Users/tu/Downloads/google-services.json
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

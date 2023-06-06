@@ -7,6 +7,7 @@ class SignUpScreen extends StatelessWidget {
   double getBigDiamter(BuildContext context) =>
       MediaQuery.of(context).size.width * 7 / 8;
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
